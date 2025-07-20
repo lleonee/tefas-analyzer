@@ -1,6 +1,7 @@
 # TEFAS Fund Analyzer v0.1.0
 
 Bu Python kütüphanesi, TEFAS (Türkiye Elektronik Fon Alım Satım Platformu) üzerinden fon fiyat verilerini indirmenizi sağlar.
+Test Pypi: [tefas-analyzer 0.1.0](https://test.pypi.org/project/tefas-analyzer/0.1.0/)  
 
 > **UYARI:** TEFAS platformu, fonlar için maksimum 5 yıllık geçmiş veriye erişim sağlar. Bu paket ile daha eski veri çekilemez. 
 > **YASAL:** Bu kütüphane yalnızca kişisel ve eğitim amaçlı kullanım içindir. Yatırım tavsiyesi değildir. Kullanımdan doğacak yasal sorumluluk tamamen kullanıcıya aittir. TEFAS, Borsa İstanbul veya başka bir kurumla resmi bir bağlantısı yoktur. Verilerdeki gecikme, hata veya eksikliklerden yazar sorumlu tutulamaz.
@@ -66,5 +67,5 @@ Daha fazla örnek ve detay için `tefas_analyzer_demo.ipynb` dosyasına bakabili
 
 Her türlü görüş, öneri ve katkı için:  
 **GitHub:** [lleonee/tefas-analyzer](https://github.com/lleonee/tefas-analyzer)  
-**E-posta:** apaydinleonefe@gmail.com
-**Linkedin** linkedin.com/in/leonefe
+**E-posta:** apaydinleonefe@gmail.com  
+**Linkedin** [Leon Efe Apaydın](linkedin.com/in/leonefe)
