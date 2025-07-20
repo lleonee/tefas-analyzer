@@ -1,0 +1,13 @@
+include README.md
+include LOG_MANAGEMENT.md
+include requirements.txt
+include LICENSE
+include pytest.ini
+recursive-include tefas_analyzer *.py
+recursive-include examples *.py *.ipynb *.md
+recursive-exclude tests *
+recursive-exclude tefas_analyzer *.pyc
+global-exclude *.pyc
+global-exclude __pycache__
+global-exclude *.so
+global-exclude .DS_Store

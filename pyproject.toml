@@ -1,0 +1,55 @@
+[build-system]
+requires = ["setuptools>=45", "wheel", "setuptools_scm"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "tefas-analyzer"
+version = "0.1.0"
+description = "yfinance-style Turkish fund analyzer - Professional TEFAS analysis toolkit"
+readme = "README.md"
+authors = [{name = "Leon Efe Apaydın", email = "apaydinleonefe@gmail.com"}]
+keywords = ["tefas", "mutual-funds", "finance", "turkey", "yfinance", "investment", "analysis"]
+classifiers = [
+    "Development Status :: 5 - Production/Stable",
+    "Intended Audience :: Financial and Insurance Industry",
+    "Intended Audience :: Developers",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: Office/Business :: Financial :: Investment",
+    "Topic :: Scientific/Engineering :: Information Analysis",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+]
+requires-python = ">=3.9"
+dependencies = [
+    "selenium>=4.0.0",
+    "pandas>=1.4.0,<2.3.0",
+    "numpy>=1.21.0,<2.0.0",
+    "matplotlib>=3.5.0,<4.0.0",
+    "beautifulsoup4>=4.10.0",
+    "requests>=2.25.0",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=6.0",
+    "build>=0.7.0",
+    "twine>=3.0.0",
+]
+test = [
+    "pytest>=6.0",
+    "pytest-cov>=2.0",
+]
+
+[project.scripts]
+tefas = "tefas_analyzer.cli:main"
+tefas-analyzer = "tefas_analyzer.cli:main"
+
+[project.urls]
+Homepage = "https://github.com/lleonee/tefas-analyzer"
+Repository = "https://github.com/lleonee/tefas-analyzer.git"
+Issues = "https://github.com/lleonee/tefas-analyzer/issues"
+Documentation = "https://github.com/lleonee/tefas-analyzer#readme"
