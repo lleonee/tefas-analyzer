@@ -22,7 +22,7 @@ Test Pypi: [tefas-analyzer 0.1.0](https://test.pypi.org/project/tefas-analyzer/0
 ## Kurulum
 
 ```bash
-pip install tefas-analyzer
+pip install -i https://test.pypi.org/simple/ tefas-analyzer
 ```
 veya
 ```bash
