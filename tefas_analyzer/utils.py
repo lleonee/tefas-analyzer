@@ -13,16 +13,7 @@ from datetime import datetime, timedelta
 
 # Popular TEFAS fund codes
 POPULAR_FUNDS = {
-    "CPU": "Garanti Portföy Teknoloji",
-    "AAK": "Ak Portföy Konut Gayrimenkul", 
-    "AFA": "Ak Portföy Altın Katılım",
-    "GAH": "Garanti Portföy Altın",
-    "TKB": "Taksit Endeksi",
-    "YAS": "Yapı Kredi Portföy Altın",
-    "APE": "Ak Portföy Petrol",
-    "GMF": "Garanti Portföy Büyüme",
-    "GPB": "Garanti Portföy Birinci",
-    "AEF": "Ak Portföy Enflasyon Korumalı"
+    "CPU": "AKTİF PORTFÖY TEKNOLOJİ KATILIM FONU"
 }
 
 def validate_fund_code(fund_code: str) -> bool:
